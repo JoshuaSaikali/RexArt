@@ -22,6 +22,7 @@ a new terminal in the same directory and run the following command:
 o Once that is finished you will see that the database connection is closed.
 
 o Now we can run the server. Use the following command:
+
 ▪ > node .\server.js
 
 ▪ Same thing applies for the warnings
