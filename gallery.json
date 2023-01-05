@@ -1,0 +1,183 @@
+[
+    {
+        "name": "Air meets Water",
+        "artist": "Corrine_Hunt",
+        "year": "2017",
+        "category": "sculpture",
+        "rating": 0,
+        "description": "Base of a cedar wood plank, carved with additional inlaid composite created from aluminium, animal bone ash and graphite. Three vertical carved cedar wood scultpures on steel dowelling pedestals, two are painted. Three vertical sculptures include carved representations of a raven, eagle, orca with coppers in beak of raven and copper wings on the eagle.",
+        "image": "https://media.britishmuseum.org/media/Repository/Documents/2017_12/15_11/4658c788_f74c_4fb1_a1e2_a84a00c28669/mid_ENA3371__a_.jpg",
+        "reviews": []
+    },
+    {
+        "name": "Kaleidoscope eye",
+        "artist": "Luke",
+        "year": "2020",
+        "category": "technolgy",
+        "rating": 0,
+        "description": "Kaleidoscope eye painting by Luke & Morgan Choice/AvantForm",
+        "image": "https://as2.ftcdn.net/v2/jpg/03/79/95/29/1000_F_379952985_wQ0CBLYX2NF38C4ls7pYpOtx5l7LlgUY.jpg",
+        "reviews": []
+    },
+    {
+        "name": "Independence Monument",
+        "artist": "Corrine_Hunt",
+        "year": "2001",
+        "category": "monument",
+        "rating": 0,
+        "description": "The Independence Monument is a victory column located on Maidan Nezalezhnosti (Independence Square) in Kyiv, commemorating the independence of Ukraine in 1991. A spiral staircase is contained within the column",
+        "image": "https://img.freepik.com/premium-photo/aerial-view-kyiv-ukraine-maidan-nezalezhnosti-independence-monument_536604-3873.jpg?w=2000",
+        "reviews": []
+    },
+    {
+        "name": "Dancing in the street",
+        "artist": "Corrine_Hunt",
+        "year": "2022",
+        "category": "painting",
+        "rating": 0,
+        "description": "Fusion of artistic works (hand painting, Indian inks and acrylic painting + digital work, texture varnish ...) creating unique, matte and glossy texture effects.",
+        "image": "https://www.artmajeur.com/medias/standard/l/-/l-roche/artwork/16196815_dancing-in-the-street-80x50.jpg",
+        "reviews": []
+    },
+    {
+        "name": "Hearts and a Watercolor",
+        "artist": "Luke",
+        "year": "1969",
+        "category": "painting",
+        "rating": 0,
+        "description": "Eight hearts with various decorations. 1969 Etching and watercolour on Chrisbrook handmade paper",
+        "image": "https://media.britishmuseum.org/media/Repository/Documents/2015_1/16_8/67ae2ec1_8646_44e8_aa15_a4220094219c/mid_PPA420678.jpg",
+        "reviews": []
+    },
+    {
+        "name": "Untitled (O'Ryan)",
+        "artist": "Luke",
+        "year": "2001",
+        "category": "photography",
+        "rating": 0,
+        "description": "Materials: chromogenic print (Fujicolor)",
+        "image": "https://www.gallery.ca/sites/default/files/styles/ngc_scale_1200/public/8442158_0.jpg?itok=Q_PwLOKk&timestamp=1632405844",
+        "reviews": []
+    },
+    {
+        "name": "Courage My Love",
+        "artist": "ArtMind",
+        "year": "2015",
+        "category": "illustration",
+        "rating": 0,
+        "description": "Moon's Daughter had never been so far from home; she wished for glimpses of her father's crescent smile. 'Courage, my love.' said Fox, 'Even in shadow, I see pockets of moonlight in your eyes'. Story excerpt from 'Courage, My Love' by Liam McKinnon.",
+        "image": "https://cdn.shopify.com/s/files/1/0172/7018/files/courage5.jpg?5845794268734385417",
+        "reviews": []
+    },
+    {
+        "name": "Hedgehog",
+        "artist": "ArtMind",
+        "year": "2012",
+        "category": "embroidery",
+        "rating": 0,
+        "description": "Fantastic use of sequins",
+        "image": "https://i.pinimg.com/564x/d2/1a/57/d21a5748cad55f87130d0533246d26b4.jpg",
+        "reviews": []
+    },
+    {
+        "name": "Rhapsody",
+        "artist": "ArtMind",
+        "year": "2010",
+        "category": "Painting",
+        "rating": 0,
+        "description": "Rhapsody artist proof etching by Keith Mallett",
+        "image": "https://static.wixstatic.com/media/cdd51a_a5b97cfb6b3e4d11bac830d82cc7e947~mv2.jpg/v1/fill/w_320,h_320,fp_0.56_0.26,q_90/cdd51a_a5b97cfb6b3e4d11bac830d82cc7e947~mv2.jpg",
+        "reviews": []
+    },
+    {
+        "name": "Tiny bunny love",
+        "artist": "ArtMind",
+        "year": "2011",
+        "category": "DIY",
+        "rating": 0,
+        "description": "Clay bunnies. They make me smile, and you? Happy coding everyone!",
+        "image": "http://3.bp.blogspot.com/-h6SoSxCBinQ/Tk-HXL5dkJI/AAAAAAAAG9o/kUHTg7aIWx0/s1600/DSC07880.JPG",
+        "reviews": []
+    },
+    {
+        "name": "Elon",
+        "artist": "Luke",
+        "year": "2022",
+        "category": "painting",
+        "medium": "watercolour",
+        "description": "sweet and handsome cat Elon, who loved to chill by the house plants",
+        "image": "https://drive.google.com/uc?export=view&id=1qxscuGONl_HDCKBUlUOPL8xD5ULc6-nK"
+    },
+    {
+        "name": "Charlie",
+        "artist": "Luke",
+        "year": "2020",
+        "category": "painting",
+        "medium": "digital",
+        "description": "Charlie Bing is all done!",
+        "image": "https://drive.google.com/uc?export=view&id=1k-gTn0GdAbQY-h8OxFR4MFqGw-_Dh44A"
+    },
+    {
+        "name": "Cali",
+        "artist": "Luke",
+        "year": "2020",
+        "category": "painting",
+        "medium": "digital",
+        "description": "Cali the Catahoula Beagle",
+        "image": "https://drive.google.com/uc?export=view&id=17q2Bp_lIyIWBleXZ9SqeynKdPjQ3zMgy"
+    },
+    {
+        "name": "Watermelon",
+        "artist": "Corrine_Hunt",
+        "year": "2020",
+        "category": "painting",
+        "medium": "coloured pencils",
+        "description": "Experiment in comparing similar shapes of different things",
+        "image": "https://drive.google.com/uc?export=view&id=1gI7nqhbI9UfR3067OOqNw2Dtubq6s8U0"
+    },
+    {
+        "name": "Gunner",
+        "artist": "Corrine_Hunt",
+        "year": "2020",
+        "category": "painting",
+        "medium": "watercolour",
+        "description": "Gunner showing off his cute new bowtie",
+        "image": "https://drive.google.com/uc?export=view&id=16CFiPbprG8AB-k-D5x8K3PTeZamQ_NI1"
+    },
+    {
+        "name": "Dennis",
+        "artist": "Corrine_Hunt",
+        "year": "2019",
+        "category": "painting",
+        "medium": "watercolour",
+        "description": "Big, handsome Mastiff, Dennis",
+        "image": "https://drive.google.com/uc?export=view&id=1lZQm4M-YT_fNir722m7V6qTf2UcXP7Uo"
+    },
+    {
+        "name": "Stella",
+        "artist": "ArtMind",
+        "year": "2019",
+        "category": "painting",
+        "medium": "watercolour",
+        "description": "A memorial piece of a beautiful dog, Stella",
+        "image": "https://drive.google.com/uc?export=view&id=1y_YNrKFIspTwUhKAD-uc_bIJlxVDF6oc"
+    },
+    {
+        "name": "Buster",
+        "artist": "ArtMind",
+        "year": "2019",
+        "category": "painting",
+        "medium": "watercolour",
+        "description": "Such a sweet and wonderfully intelligent dog whose image was captured",
+        "image": "https://drive.google.com/uc?export=view&id=1FWSfbWILewTNvZhssGfJOMTiGwMPIJnu"
+    },
+    {
+        "name": "Jamie",
+        "artist": "Luke",
+        "year": "2022",
+        "category": "painting",
+        "medium": "digital",
+        "description": "Sweet kitty Jamie was posing for her painting",
+        "image": "https://drive.google.com/uc?export=view&id=1kP091JWZbdBlwhQWPiF-VbaH_iHQMOBm"
+    }
+]

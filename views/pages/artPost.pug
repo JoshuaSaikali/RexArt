@@ -1,0 +1,43 @@
+html
+    head
+        title  #{artwork.name} - RexArt
+        style 
+            include ../styles.css
+    body
+        include ../partials/header.pug
+        br
+        div
+            div.polaroid.center
+                img(src="" + artwork.image alt="" + artwork.name)
+                div.container 
+                    p.font #{artwork.name} 
+                    p.font Artist  
+                        a(href="/users/" + artwork.artist) #{artwork.artist}
+                    a(href="/artwork?" + "year=" + artwork.year).font #{artwork.year} 
+                    br
+                    a(href="/artwork?" + "category=" + artwork.category).font #{artwork.category} 
+                    p.font #{artwork.description}
+
+                - let allow = true;
+                - if (artwork.artist === user.username) {allow = false;}
+                if allow
+                    button(type="submit" onclick="addToFavorite()") Like
+                    |
+                h3.font #{artwork.rating} Like(s) 
+                if allow
+                    div.search
+                        input(type="text" placeholder="Write a review..")#review
+                        button(type="submit" onclick="addReview()") Add Review
+                div
+                    h3.font Reviews 
+                    each item in artwork.reviews 
+                        div.username.review 
+                            h3.font 
+                                a(href="/users/" + item.user).unfollow - #{item.user} -
+                            p.font #{item.content}
+                        br
+
+
+
+        script 
+            include ../../client.js

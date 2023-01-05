@@ -1,0 +1,27 @@
+html
+    head
+        title Workshop - #{workshop.name} - RexArt
+        style 
+            include ../styles.css
+
+    body
+        include ../partials/header.pug
+        div
+            div#workshopname 
+                h2.font Workshop - #{workshop.name}
+            div#w-description
+                div
+                    div.polaroid.center
+                        div.container 
+                            h1.font #{workshop.name}
+                            p.font #{workshop.description}
+                            h3.font Users Enrolled
+                            each user in workshop.users
+                                div.username.review 
+                                    h3.font 
+                                        a(href="/users/" + user.username).unfollow #{user.username}
+                                br
+                            div#enroll 
+                                button(type="submit" onclick="enroll()" value="" + artist._id id="" + workshop.name).button-unfollow Enroll
+        script 
+            include ../../client.js

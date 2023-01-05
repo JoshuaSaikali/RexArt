@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.input-register {
+    width: 75%;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.submit-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button-register {
+    width: 100px;
+    margin: 0 auto;
+    background-color: black;
+    opacity: 80%;
+    color: white;
+    border: none;
+    padding: 9px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.unfollow:link,
+.unfollow:visited {
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: transparent;
+}
+
+.unfollow:hover,
+.unfollow:active {
+    background-color: rgba(158, 158, 158, 0.5);
+    color: white;
+}
+
+.center {
+    text-align: center;
+    padding: 5%;
+}
+
+.login {
+    border: 1px solid #333;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 5px;
+
+}
+
+.logo-title {
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-size: 75px;
+}
+
+body {
+    background-image: url("/gallery2.jpg");
+    background-size: cover;
+
+}
+
+.bar {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.bar li {
+    height: 100%;
+    width: 100%;
+    border-right: 1px solid rgb(3, 3, 3);
+    border-left: 1px solid rgb(3, 3, 3);
+}
+
+.bar li a {
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.bar li a:hover {
+    background-color: rgb(216, 216, 216);
+}
+
+.bar li a.active {
+    background-color: rgb(172, 172, 172);
+    color: white;
+}
+
+.font {
+    font-family: 'Courier New', monospace;
+}
+
+#logo {
+    font-size: 300%;
+}
+
+.polaroid {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+img {
+    padding-top: 25px;
+    width: 50%;
+}
+
+.search {
+    display: flex;
+    outline: 1px solid #000000;
+}
+
+.search>input {
+    flex-grow: 1;
+    border: 0;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.search>input:focus {
+    outline: none;
+}
+
+.search>button {
+    padding: 0.8rem 2rem;
+    border: 0;
+    cursor: pointer;
+    font-size: 1rem;
+    color: white;
+    background: #2c2c2c;
+}
+
+form {
+    padding: 20px 0;
+    max-width: 40%;
+}
+
+.third {
+    float: left;
+    width: 33.33%;
+}
+
+.columns {
+    column-count: 3;
+}
+
+.button-unfollow:link,
+.button-unfollow:visited {
+    background-color: #4949492a;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 9px;
+}
+
+.button-unfollow:hover,
+.button-unfollow:active {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.username {
+    text-align: left;
+}
+
+.review {
+    border-top: 1px rgba(107, 107, 107, 0.356);
+    border-bottom: 1px solid rgba(107, 107, 107, 0.356);
+    ;
+}
+
+.inventory {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    width: 25%;
+}
+
+.new-artwork {
+    padding-top: 40px;
+}
+
+.create {
+    padding: 0.8rem 2rem;
+    border: 0;
+    cursor: pointer;
+    font-size: 1rem;
+    color: white;
+    background: #2c2c2c;
+}

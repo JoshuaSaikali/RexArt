@@ -1,0 +1,26 @@
+html
+    head
+        title Create Artwork - RexArt
+        style 
+            include ../styles.css
+
+    body
+        include ../partials/header.pug
+        div.center
+            h3.font Create New Artwork
+            br 
+            div.search 
+                input(type="text" placeholder="Enter Artwork name")#artwork-name
+            div.search 
+                input(type="text" placeholder="Enter year")#artwork-year
+            div.search 
+                input(type="text" placeholder="Enter category")#artwork-category
+            div.search 
+                input(type="text" placeholder="Enter description")#artwork-desc
+            div.search 
+                input(type="text" placeholder="Enter Artwork URL. Ex: https://i.pinimg.com/564x/d2/1a/57/d21a5748cad55f87130d0533246d26b4.jpg")#artwork-url
+            br 
+            br
+            button(type="submit" onclick="createNewArtwork()").create Create
+        script 
+            include ../../client.js

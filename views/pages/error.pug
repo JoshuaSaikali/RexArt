@@ -1,0 +1,13 @@
+html
+    head
+        title Error - RexArt
+        style 
+            include ../styles.css
+    body
+        p.logo-title RexArt
+        div.center
+            h3.logo-title Error in server (#{code})
+            p.logo-title #{error}
+            ul.bar
+                li
+                    a(href="/") Back

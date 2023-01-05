@@ -1,0 +1,20 @@
+html
+    head
+        title Create Workshop - RexArt
+        style 
+            include ../styles.css
+
+    body
+        include ../partials/header.pug
+        div.center
+            h3.font Create New Workshop
+            br 
+            div.search 
+                input(type="text" placeholder="Enter Workshop Title")#workshop-name
+            div.search 
+                input(type="text" placeholder="Enter Workshop description")#workshop-desc
+            br 
+            br
+            button(type="submit" onclick="createNewWorkshop()").create Create
+        script 
+            include ../../client.js

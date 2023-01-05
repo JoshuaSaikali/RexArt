@@ -1,0 +1,23 @@
+html
+    head
+        title  Notifications - RexArt
+        style 
+            include ../styles.css
+    body
+        include ../partials/header.pug
+        br
+        div
+            div.polaroid.center
+                div.container
+                    h1.font Notifications 
+                    each item in user.notifications
+                        div.username.review 
+                            h3.font 
+                                a(href="/users/" + item.artist).unfollow - #{item.artist} -
+                            p.font #{item.content}
+                        br
+
+
+
+        script 
+            include ../../client.js

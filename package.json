@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "name": "term-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "UserModel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "fs": "^0.0.1-security",
+    "mongoose": "^6.8.0",
+    "pug": "^3.0.2"
+  }
+}

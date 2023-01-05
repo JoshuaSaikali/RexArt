@@ -1,0 +1,65 @@
+html
+    head
+        title #{user.username}'s profile - RexArt
+        style 
+            include ../styles.css
+
+    body
+        include ../partials/header.pug
+        div
+            div#username.inventory
+            - let account = "Patron";
+            - if (!user.artist) {account = "Artist";}
+                div 
+                    h2.font #{user.username}'s profile
+                div 
+                    button(type="submit" onclick="changeAccountType()").button-unfollow Switch account type to #{account}
+            div.third
+                div
+                    h3.font Following 
+                    - var none = false;
+                    - if (user.following.length < 1) {var none = true};
+                    if none 
+                        p.font 0 following 
+                    else
+                        each follow in user.following
+                            div
+                                a(href="/users/" + follow.username).font.unfollow #{follow.username}
+                                |
+                                button(type="submit" onclick="unfollowArtist()" value="" + follow._id).button-unfollow Unfollow
+                if user.artist
+                    div.new-artwork
+                        a(href="/myprofile/artwork").font.unfollow Add Artwork
+                    div.new-artwork
+                        a(href="/myprofile/workshop").font.unfollow Add Workshop
+                div.new-artwork 
+                    a(href="/users/" + user.username).font.unfollow View Artist Page
+                        
+            div.third
+                h3.font Reviews 
+                - var none = false;
+                - if (user.reviews.length < 1) {var none = true};
+                if none 
+                    p.font 0 Reviews 
+                else
+                    div
+                        ul
+                        each review in user.reviews
+                            li 
+                                a(href="/artwork/" + review.artId).font.unfollow #{review.content}
+                                |
+                                button(type="submit" onclick="deleteReview()" id="" + review.artId value="" + review.reviewId).button-unfollow Delete
+            div.third
+                h3.font Likes 
+                - var none = false;
+                - if (user.liked.length < 1) { var none = true};
+                if none 
+                    p.font 0 Artworks liked
+                else
+                    each art in user.liked
+                        div
+                            a(href="/artwork/" + art._id).font.unfollow #{art.name}
+                            |
+                            button(type="submit" onclick="unlike()" id="" + art._id).button-unfollow Unlike
+        script 
+            include ../../client.js

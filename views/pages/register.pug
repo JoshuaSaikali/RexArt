@@ -1,0 +1,22 @@
+html
+	head
+		title Register User
+		style
+			include ../styles.css 
+	body
+		div.center 
+			div
+				h3.logo-title RexArt
+			div.login
+				div.input-group
+					| Username: 
+					input.input-register#name(type="textbox")
+				div.input-group
+					| Password: 
+					input.input-register#pass(type="password")
+				div#error
+				div.submit-group
+					button.button-register#submit(type="button" onclick="register()") Register
+					button.button-register#login(type="button" onclick="login()") Log In
+		script 
+			include ../../client.js

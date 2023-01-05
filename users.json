@@ -1,0 +1,38 @@
+[
+    {
+        "password": "restricted",
+        "username": "Corrine_Hunt",
+        "artist": true,
+        "followers": [],
+        "following": [],
+        "reviews": [],
+        "artwork": [],
+        "liked": [],
+        "workshops": [],
+        "notifications": []
+    },
+    {
+        "password": "restricted",
+        "username": "Luke",
+        "artist": true,
+        "followers": [],
+        "following": [],
+        "reviews": [],
+        "artwork": [],
+        "liked": [],
+        "workshops": [],
+        "notifications": []
+    },
+    {
+        "password": "restricted",
+        "username": "ArtMind",
+        "artist": true,
+        "followers": [],
+        "following": [],
+        "reviews": [],
+        "artwork": [],
+        "liked": [],
+        "workshops": [],
+        "notifications": []
+    }
+]

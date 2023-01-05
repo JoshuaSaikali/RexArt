@@ -1,0 +1,48 @@
+html
+    head
+        title #{artist.username}'s profile - RexArt
+        style 
+            include ../styles.css
+
+    body
+        include ../partials/header.pug
+        div
+            div#username 
+                h1.font #{artist.username}'s profile 
+                |
+                h2.font #{artist.followers.length} follower(s)
+                |
+                - let allow = true;
+                - if (artist.username === (userId)) {allow = false;}
+                if allow
+                    button(type="submit" onclick="followArtist()" value="" + artist._id).button-unfollow Follow
+            div#inventory
+                h3.font Artworks 
+                - var none = false;
+                - if (artist.artwork.length < 1) {var none = true};
+                if none 
+                    p.font This artist has no artwork. 
+                else
+                    each piece in artist.artwork
+                        div.inventory
+                            div.polaroid.center 
+                                a(href="/artwork/" + piece._id) 
+                                    img(src="" + piece.image alt="" + piece.name width="50%")
+                                div.container 
+                                    p.font #{piece.name} 
+            div#workshops 
+                h3.font Workshops
+                - var none = false;
+                - if (artist.workshops.length < 1) {var none = true;} 
+                if none 
+                    p.font This artist has no workshops.
+                else 
+                    each item in artist.workshops
+                        div.inventory 
+                            div.polaroid 
+                                div.container 
+                                    a(href="/users/" + artist.username + "/" + item.name).unfollow
+                                        p.font #{item.name}
+
+        script 
+            include ../../client.js

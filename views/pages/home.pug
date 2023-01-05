@@ -1,0 +1,27 @@
+html
+	head
+		title Home - RexArt.
+		style 
+			include ../styles.css
+
+	body
+		include ../partials/header.pug
+		div.center
+			h1.font Search for Artworks
+			div.search 
+				input(type="text" placeholder="Enter artwork name")#query-wname
+			br
+			div.search
+				input(type="text" placeholder="Enter artist name")#query-aname
+			br
+			div.search
+				input(type="text" placeholder="Enter artwork year")#query-year
+			br
+			div.search 
+				input(type="text" placeholder="Enter artwork category")#query-category
+				button(type="submit" onclick="searchQuery()") Search
+		div#images.center
+		script
+			include ../../client.js
+
+

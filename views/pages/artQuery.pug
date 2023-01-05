@@ -1,0 +1,28 @@
+html
+	head
+		title Home - RexArt.
+		style 
+			include ../styles.css
+
+	body
+		include ../partials/header.pug
+		div#images.center 
+			each art in artworks
+				div.polaroid 
+					a(href="/artwork/" + art._id) 
+						img(src="" + art.image alt="" + art.name width="50%")
+					div.container 
+						p.font #{art.name} 
+		div#pagination.center
+			if current > 1
+				- let url = "http://localhost:3000/artwork?page=" + (current-1)
+				- if(qstring.length > 1){ url += "&" + qstring; }
+				a(href=url).unfollow Previous
+				| 
+			- url = "http://localhost:3000/artwork?page=" + (current+1)
+			- if(qstring.length > 1){ url += "&" + qstring; }
+			a(href=url).unfollow Next
+		script
+			include ../../client.js
+
+
