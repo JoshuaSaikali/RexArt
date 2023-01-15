@@ -1,31 +1,6 @@
 # RexArt
 Social Media platform where users can post artwork's using image URL's and create workshops where users can enroll.
 
-![Demonstration](https://www.youtube.com/watch?v=g2snvb-dg7U)
+Video demonstration here:
+https://www.youtube.com/watch?v=g2snvb-dg7U
 
-Installation, initialization/running database, and server
-- Open a terminal in the directory of the server.js file
-- How to install:
-o To begin, install all the necessary dependencies by using the following
-command:
-
-▪ > npm install
-
-o Then you need to start the database. To do this, run the following command:
-
-▪ > mongod --dbpath='data/db'
-
-o Once the database is launched, you will need to initialize it. To do this, open
-a new terminal in the same directory and run the following command:
-
-▪ > node .\database-initializer.js
-
-o Once that is finished you will see that the database connection is closed.
-
-o Now we can run the server. Use the following command:
-
-▪ > node .\server.js
-
-▪ Same thing applies for the warnings
-
-o Now head to http://localhost:3000
