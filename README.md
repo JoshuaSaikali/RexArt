@@ -1,6 +1,7 @@
 # RexArt
 Social Media platform where users can post artwork's using image URL's and create workshops where users can enroll.
 
+![Demonstration](https://www.youtube.com/watch?v=g2snvb-dg7U)
 
 Installation, initialization/running database, and server
 - Open a terminal in the directory of the server.js file
